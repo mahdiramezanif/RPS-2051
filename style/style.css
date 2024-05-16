@@ -1,6 +1,54 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins-Medium.ttf);
+}
+
 :root {
+    --blueGradiant: #3B2A9F;
+    --secondary: #FA8305;
+    --grWin: #4EFF22;
+    --reLost: #CB1111;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    text-align: center;
+    background-color: var(--blueGradiant);
+    font-family: Poppins;
+}
+
+
+img {
+    width: 100px;
+    margin: 10px;
+}
+
+button {
+    background-color: orange;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+#gameForm {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='radio'] {
+  background-color: orange;
+}
+
+.multiplayerControls{
+    color: #4EFF22;
+}
+
+#myTitle{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: blueviolet;
 }
